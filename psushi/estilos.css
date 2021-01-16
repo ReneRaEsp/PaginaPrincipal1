@@ -115,7 +115,7 @@ body {
 	align-content: center;
 	text-decoration: none;
 	margin-top: 1rem;
-	margin-right: 3rem;
+	margin-right: 1.4rem;
 }
 
 .contenedor .header .redes a .facebook,
@@ -380,7 +380,7 @@ body {
 @media screen and (max-width: 768px) {
 	.contenedor {
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 100px 500px 500px 500px 600px 600px; 
+		grid-template-rows: auto 500px 500px 500px 600px 600px; 
 		grid-template-areas:"header 	header		header " 
 							"contenido1	contenido1 	contenido1"
 							"contenido2	contenido2 	contenido2"
@@ -411,7 +411,7 @@ body {
 	}
 
 	.contenedor .contenido1 {
-		margin-top: 15rem;
+		margin-top: 2rem;
 	}
 }
 @media screen and (max-width: 565px) {
