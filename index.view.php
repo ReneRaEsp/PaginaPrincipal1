@@ -252,7 +252,7 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="https://unpkg.com/@popperjs/core@2.0.0-rc.3"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/efectos.js"></script>
+	<script type="text/javascript" src="efectos.js"></script>
 	<script type="text/javascript" src="js/headroom.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	
