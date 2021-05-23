@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
-	<title>Ramesptop web</title>
+	<title>RamSolutions</title>
 	<script src="https://kit.fontawesome.com/31c64c925d.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sarabun:wght@500&family=Yusei+Magic&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
   				<div class="container-fluid d-flex justify-content-between">
   					<a class="borde col-1 p-1 bg-white rounded" href="index.html">
-  						<img class="logo img-fluid" src="img/logo2.png" alt="">		
+  						<img class="logo img-fluid" src="../img/logo2.png" alt="">		
       				<!--<p class="ram">Ramesptop <br/> <span class="web">Web</span><span class="des"> Design</span></p>-->
     				</a>
      					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,11 +29,25 @@
     					</button>
     				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       					<div class="navbar-nav d-flex justify-content-between">
-        					<a class=" nav-link text-white font-weight-bold active text-center" aria-current="page" href="https://reneraesp.github.io/index.html"><span class="p-2 h5">Inicio</span> <i class="fas fa-house-user"></i></a>
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="index.php"><span class="p-2 h5">Contacto</span> <i class="fas fa-address-book"></i></a>
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="https://reneraesp.github.io/pportafolio/index.html"dashboard/><span class="p-2 h5">Portfolio</span> <i class="fas fa-suitcase"></i></a>
+        					<a class=" nav-link text-white font-weight-bold active text-center" aria-current="page" href="https://www.ramsolutions.xyz">
+        						<span class="p-2 h5">Inicio</span> 
+        						<i class="fas fa-house-user"></i>
+        					</a>
+
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="index.php">
+    	    					<span class="p-2 h5">Contacto</span> <i class="fas fa-address-book"></i>
+    	    				</a>
+
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="https://www.ramsolutions.xyz/pportafolio/"dashboard/>
+    	    					<span class="p-2 h5">Portfolio</span> 
+    	    					<i class="fas fa-suitcase"></i>
+    	    				</a>
+
     	    				<!--<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" href="../ptecnologias/index.html"><span class="p-2 h5">Tecnologias</span> <i class="fas fa-microchip"></i></a>-->
-    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" target="_BLANK" href="https://blog.ramesptop.com"><span class="p-2 h5">Blog</span> <i class="fas fa-blog"></i></a>
+    	    				<a class=" nav-link text-white font-weight-bold text-center" aria-current="page" target="_BLANK" href="https://blog.ramesptop.com">
+    	    					<span class="p-2 h5">Blog</span> 
+    	    					<i class="fas fa-blog"></i>
+    	    				</a>
  		     			</div>
    		 			</div>
  		 		</div>
@@ -53,7 +67,7 @@
 			<div class=" d-none d-sm-flex col-12 col-sm-4"></div>
 			
 			<div class="m-2 col-12 col-sm-2 contactoT contactoT2 rounded d-flex justify-content-around flex-wrap flex-row ">
-					<a class="" href="https://t.me/ramesptop" target="_BLANK">
+					<a class="" href="https://t.me/rrteam7" target="_BLANK">
 						<i class="logoT p-1 contactoI fab fa-telegram"></i>
 						<p cllass="clickT" >Iniciar conversación en telegram</p>	
 					</a>
@@ -69,7 +83,7 @@
 			
 				<div class="m-1 p-1 m-sm-2 p-sm-2 inside col-12 col-md-4 rounded d-flex justify-content-between flex-wrap flex-column ">
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p>
+						<p class="contacto text-dark p-2">Email: ramesptop@protonmail.com</p>
 						<i class="pt-4 correo contactoI fas fa-envelope"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
@@ -77,7 +91,7 @@
 						<i class="p-2 telefono contactoI fas fa-phone-square"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Telegram: @RamEsptop</p>
+						<p class="contacto text-dark p-2">Telegram: @RRTeam7</p>
 						<i class="p-2 telegram contactoI fab fa-telegram"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
@@ -102,11 +116,11 @@
 						</div>
 							<?php elseif ($enviado): ?>
 							
-						<script language="javascript">alert("Mensaje enviado correctamente"); </script>
+						<script language="javascript">document.write(`Mensaje enviado correctamente<br>`); </script>
 				
 							<?php endif?>
 				
-						<input type="submit" name="submit" value="Enviar" class="btn btn-success mt-4 w-25 float-right p-2" >
+						<input type="submit" name="submit" value="Enviar" class="btn btn-success mt-4 w-25 float-end p-2" >
 					</div>
 				</form>
 			</div>

@@ -34,8 +34,8 @@ if (isset($_POST['submit'])) {
 	}
 
 	if(!$errores){
-		$enviar_a = 'rene@ramesptop.com';
-		$asunto = 'Correo enviado desde ramesptop.com';
+		$enviar_a = 'ramesptop@protonmail.com';
+		$asunto = 'Correo enviado desde ramsolutions.xyz';
 		$mensaje_preparado = "De: $nombre \n";
 		$mensaje_preparado .= "Correo: $correo \n";
 		$mensaje_preparado .= "Mensaje " . $mensaje;
